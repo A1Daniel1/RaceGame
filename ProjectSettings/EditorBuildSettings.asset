@@ -6,7 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/TopDownRace/Scenes/MainMenu.unity
+    guid: 3c5528108bf2d114f9b24928a15dcbe5
+  - enabled: 1
+    path: Assets/TopDownRace/Scenes/Snow.unity
+    guid: aa67d7f51ae64c54caabb89cc6a4e556
+  - enabled: 1
+    path: Assets/TopDownRace/Scenes/Desert.unity
+    guid: f3cf2db418218ad4d917b2fc7c8aae36
+  - enabled: 1
+    path: Assets/TopDownRace/Scenes/Forest.unity
+    guid: f9af58e73ca97fe4485acb65abb5ca35
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
