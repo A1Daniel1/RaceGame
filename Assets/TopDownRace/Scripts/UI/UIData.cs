@@ -8,6 +8,7 @@ namespace TopDownRace
     {
         public GameObject[] m_UIPrefabs;
         public GameObject[] m_UIElementsPrefabs;
+        [System.NonSerialized]
         public Dictionary<string, GameObject> m_UIPrefabList;
 
 

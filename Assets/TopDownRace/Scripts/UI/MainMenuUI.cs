@@ -46,9 +46,18 @@ namespace TopDownRace
                     SceneManager.LoadScene("Snow");
                     break;
             }
+        }
 
+        public void BtnSoloMode()
+        {
+            if (m_GameplayData != null)
+                m_GameplayData.LevelNumber = 0;
+            SceneManager.LoadScene("Forest");
+        }
 
-
+        public void BtnMultiplayerMode()
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }
