@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfplan
+*.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Unity (RaceGame/)
+RaceGame/Library/
+RaceGame/Temp/
+RaceGame/Obj/
+RaceGame/Build/
+RaceGame/Builds/
+RaceGame/Logs/
+RaceGame/UserSettings/
+RaceGame/*.csproj
+RaceGame/*.sln
+RaceGame/*.suo
+RaceGame/*.tmp
+RaceGame/*.user
+RaceGame/.vs/
