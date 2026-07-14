@@ -1,0 +1,6 @@
+aws_region     = "us-east-1"
+vpc_id         = "vpc-xxxxxxxxxxxxxxxxx"
+subnet_ids     = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]
+listener_arn   = "arn:aws:elasticloadbalancing:us-east-1:<account>:listener/app/<alb>/<alb_id>/<listener_id>"
+ecr_image_uri  = "<account>.dkr.ecr.us-east-1.amazonaws.com/history-service:latest"
+mongodb_uri    = "mongodb+srv://user:password@cluster.mongodb.net/racegame_history"

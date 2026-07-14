@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: feb33066d45903d4c9180136e445295f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310949
+  packageName: Top Down Race 2D - Game Template
+  packageVersion: 1.0
+  assetPath: Assets/TopDownRace/Prefabs/UI/JoystickUI.prefab
+  uploadId: 734005
