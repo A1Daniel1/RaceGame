@@ -3,8 +3,7 @@ name: Deploy History Service
 on:
   push:
     branches: [main]
-    paths:
-      - 'HistoryService/**'
+  workflow_dispatch:
 
 env:
   AWS_REGION: us-east-1

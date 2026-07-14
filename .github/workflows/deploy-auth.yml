@@ -3,8 +3,7 @@ name: Deploy Auth Service
 on:
   push:
     branches: [main]
-    paths:
-      - 'AuthService/**'
+  workflow_dispatch:
 
 env:
   AWS_REGION: us-east-1

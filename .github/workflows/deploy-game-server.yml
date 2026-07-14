@@ -3,8 +3,7 @@ name: Deploy Game Server
 on:
   push:
     branches: [main]
-    paths:
-      - 'GameServer/**'
+  workflow_dispatch:
 
 env:
   AWS_REGION: us-east-1

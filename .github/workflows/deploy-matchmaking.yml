@@ -3,8 +3,7 @@ name: Deploy Matchmaking Service
 on:
   push:
     branches: [main]
-    paths:
-      - 'MatchmakingService/**'
+  workflow_dispatch:
 
 env:
   AWS_REGION: us-east-1
